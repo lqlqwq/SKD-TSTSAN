@@ -4,11 +4,13 @@ import numpy as np
 import pandas as pd
 
 def pol2cart(rho, phi): #Convert polar coordinates to cartesian coordinates for computation of optical strain
+    # print("phi.dtype:", phi.dtype)  # 在 pol2cart
     x = rho * np.cos(phi)
     y = rho * np.sin(phi)
     return (x, y)
 
 def computeStrain(u, v):
+    # print("u.dtype:", u.dtype)  # 在 computeStrain
     u_x= u - pd.DataFrame(u).shift(-1, axis=1)
     v_y= v - pd.DataFrame(v).shift(-1, axis=0)
     u_y= u - pd.DataFrame(u).shift(-1, axis=0)
@@ -54,12 +56,16 @@ def main(input_folder, output_folder):
 
         os.makedirs(out_folder_path, exist_ok=True)
 
+        # print(os.listdir(folder_path))
+
         onset_img = [img for img in os.listdir(folder_path) if img.endswith("onset.jpg")]
         apex_img = [img for img in os.listdir(folder_path) if img.endswith("apex.jpg")]
         offset_img = [img for img in os.listdir(folder_path) if img.endswith("offset.jpg")]
 
 
         for i in range(len(apex_img)):
+            # print(os.path.join(folder_path, onset_img[i]), os.path.join(folder_path, apex_img[i]))
+
             flow_1_u, flow_1_v, flow_1_os = calculate_optical_flow(os.path.join(folder_path, onset_img[i]), os.path.join(folder_path, apex_img[i]))
             flow_2_u, flow_2_v, flow_2_os = calculate_optical_flow(os.path.join(folder_path, apex_img[i]), os.path.join(folder_path, offset_img[i]))
 

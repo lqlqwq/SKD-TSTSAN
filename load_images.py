@@ -11,7 +11,8 @@ def crop_images_CASME2_retinaface():
     face_det_model_path = "RetinaFace/Resnet50_Final.pth"
     face_detection = FaceDetector(face_det_model_path)
 
-    main_folder_path = "Dataset/CASME2_RAW_selected"
+    # main_folder_path = "Dataset/CASME2_RAW_selected"
+    main_folder_path = "Dataset/CASME2_retinaface"
 
     for sub_folder_name in os.listdir(main_folder_path):
         sub_folder_path = os.path.join(main_folder_path, sub_folder_name)
