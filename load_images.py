@@ -2,6 +2,9 @@ import glob
 import cv2
 from RetinaFace.tools import FaceDetector
 import os
+import faulthandler; faulthandler.enable()
+# device = torch.device("cpu")
+# net = net.to(device
 
 
 def crop_images_CASME2_retinaface():

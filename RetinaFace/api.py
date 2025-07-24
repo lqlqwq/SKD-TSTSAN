@@ -3,6 +3,14 @@ import torch
 import torch.backends.cudnn as cudnn
 import numpy as np
 
+
+torch.backends.cudnn.enabled = False
+torch.backends.cudnn.benchmark = False
+# 强制 device 为 CPU
+device = torch.device("cpu")
+
+
+
 def add_path(path):
     if path not in sys.path:
         sys.path.insert(0, path)
