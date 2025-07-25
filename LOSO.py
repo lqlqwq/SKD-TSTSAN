@@ -1,13 +1,21 @@
 import os
 import shutil
 
-data_folder = 'Dataset/CASME2_retinaface'
+data_folder = 'Dataset/CASME2_retinaface_classify_LOSO'
+# data_folder = 'Dataset/CASME2_retinaface_classify'
+# output_folder = 'Dataset/CASME2_retinaface_classify_LOSO'
+
+# 如果输出文件夹已存在，终止
+# if not os.path.exists(output_folder):
+#     shutil.copytree(data_folder, output_folder)
+# else :
+#     raise SystemExit("文件夹已存在")
 
 for sub_num in range(1, 27):
     sub_prefix = f'sub{sub_num:02d}'
 
     sub_folder = os.path.join(data_folder, sub_prefix)
-    os.makedirs(sub_folder, exist_ok=True)    #Dataset/CASME2_retinaface/sub01/
+    os.makedirs(sub_folder, exist_ok=True)
 
     for class_folder in range(5):
         class_path = os.path.join(data_folder, str(class_folder))

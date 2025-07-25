@@ -62,9 +62,12 @@ def main(input_folder, output_folder):
         apex_img = [img for img in os.listdir(folder_path) if img.endswith("apex.jpg")]
         offset_img = [img for img in os.listdir(folder_path) if img.endswith("offset.jpg")]
 
+        print(f"onset: {len(onset_img)}, apex: {len(apex_img)}, offset: {len(offset_img)}")
+
+        if len(onset_img) != len(apex_img) or len(onset_img) != len(offset_img) or len(offset_img) != len(apex_img):
+            raise SystemExit(folder_path)
 
         for i in range(len(apex_img)):
-            # print(os.path.join(folder_path, onset_img[i]), os.path.join(folder_path, apex_img[i]))
 
             flow_1_u, flow_1_v, flow_1_os = calculate_optical_flow(os.path.join(folder_path, onset_img[i]), os.path.join(folder_path, apex_img[i]))
             flow_2_u, flow_2_v, flow_2_os = calculate_optical_flow(os.path.join(folder_path, apex_img[i]), os.path.join(folder_path, offset_img[i]))
