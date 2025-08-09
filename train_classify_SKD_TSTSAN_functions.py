@@ -157,10 +157,12 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
     cudnn.deterministic = True
 
     is_cuda = torch.cuda.is_available()
+    print(is_cuda)
     if is_cuda:
         device = torch.device('cuda')
     else:
-        device = torch.device('cpu')
+        # device = torch.device('cpu')
+        raise Exception("No GPU")
 
     if config.loss_function == "FocalLoss_weighted":
         if config.main_path.split("/")[1].split("_")[0] == "CASME2":
@@ -347,7 +349,10 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
             model.load_state_dict(torch.load(weight_path))
 
         optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate, betas=(0.9, 0.99), weight_decay=0.0005)
-        X_train = torch.Tensor(X_train).permute(0, 3, 1, 2)
+        # X_train = torch.Tensor(X_train).permute(0, 3, 1, 2)
+        X_train = np.array(X_train)
+        X_train = torch.from_numpy(X_train).float().permute(0, 3, 1, 2)
+
         y_train = torch.Tensor(y_train).to(dtype=torch.long)
         dataset_train = TensorDataset(X_train, y_train)
 
@@ -355,10 +360,15 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
             random.seed(seed + worker_id)
             np.random.seed(seed + worker_id)
 
+        # train_dl = DataLoader(dataset_train, batch_size=batch_size, shuffle=True, num_workers=0, pin_memory=True,
+        #                       worker_init_fn=worker_init_fn)
         train_dl = DataLoader(dataset_train, batch_size=batch_size, shuffle=True, num_workers=0, pin_memory=True,
                               worker_init_fn=worker_init_fn)
 
-        X_test = torch.Tensor(X_test).permute(0, 3, 1, 2)
+        # X_test = torch.Tensor(X_test).permute(0, 3, 1, 2)
+        X_test = np.array(X_test)
+        X_test = torch.from_numpy(X_test).float().permute(0, 3, 1, 2)
+
         y_test = torch.Tensor(y_test).to(dtype=torch.long)
         dataset_test = TensorDataset(X_test, y_test)
         test_dl = DataLoader(dataset_test, batch_size=batch_size, shuffle=False, num_workers=0)

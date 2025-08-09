@@ -17,11 +17,11 @@ def classify_images():
 
     # 表情类别映射 - 使用固定顺序
     emotion_map = {
-        'happiness': '0',
-        'disgust': '1',
-        'repression': '2',
-        'surprise': '3',
-        'others': '4'
+        'happiness': "0",
+        'surprise': "1",
+        'disgust': "2",
+        'repression': "3",
+        'others': "4"
     }
 
     # 首先创建表情类别文件夹
