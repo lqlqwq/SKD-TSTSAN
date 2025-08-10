@@ -157,7 +157,6 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
     cudnn.deterministic = True
 
     is_cuda = torch.cuda.is_available()
-    print(is_cuda)
     if is_cuda:
         device = torch.device('cuda')
     else:
@@ -195,7 +194,6 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
 
     main_path = config.main_path
     subName = os.listdir(main_path)
-
 
     for n_subName in subName:
         print('Subject:', n_subName)

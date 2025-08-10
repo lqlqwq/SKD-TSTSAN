@@ -2,7 +2,7 @@ import pandas as pd
 import shutil
 import os
 
-df = pd.read_excel("..Dataset/CASME2-coding-20140508.xlsx",dtype={"Subject": str})
+df = pd.read_excel("../Dataset/CASME2-coding-20140508.xlsx",dtype={"Subject": str})
 dir_path = "../Dataset/CASME2_retinaface/"
 out_dir_path = "../Dataset/CASME2_onset_apex_offset_retinaface/"
 
@@ -41,4 +41,4 @@ for index, row in df.iterrows():
                     shutil.copy(old_path, new_path)
     else:
         lst.append(index)
-        print(lst)
+        # print(lst)

@@ -1,6 +1,8 @@
 import os
 import shutil
 
+
+#cp -r Dataset/CASME2_retinaface_classify Dataset/CASME2_retinaface_classify_LOSO/
 data_folder = 'Dataset/CASME2_retinaface_classify_LOSO'
 # data_folder = 'Dataset/CASME2_retinaface_classify'
 # output_folder = 'Dataset/CASME2_retinaface_classify_LOSO'
@@ -36,4 +38,6 @@ for sub_num in range(1, 27):
         os.makedirs(train_folder, exist_ok=True)
         for file in not_files:
             shutil.copy(os.path.join(class_path, file), os.path.join(train_folder, file))
+
+#记得删除数字文件夹
 

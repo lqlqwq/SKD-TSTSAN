@@ -1,3 +1,6 @@
 /Pretrained_model/
 /Dataset/
 /Experiment_for_recognize/
+/__pycache__/
+/RetinaFace/
+*.pyc

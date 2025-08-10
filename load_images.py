@@ -6,6 +6,7 @@ import faulthandler; faulthandler.enable()
 # device = torch.device("cpu")
 # net = net.to(device
 
+#cp -r Dataset/CASME2_RAW_selected/ Dataset/CASME2_retinaface/
 
 def crop_images_CASME2_retinaface():
     face_det_model_path = "RetinaFace/Resnet50_Final.pth"
