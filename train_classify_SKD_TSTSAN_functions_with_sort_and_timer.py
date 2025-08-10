@@ -130,8 +130,10 @@ def feature_loss_function(fea, target_fea):
 
 class TrainingTimer:
     """训练时间估算器"""
-    def __init__(self, total_epochs, current_subject, total_subjects):
+    def __init__(self, total_epochs, current_subject, total_subjects, data_loading_time=0):
         self.start_time = time.time()
+        self.data_loading_time = data_loading_time  # 数据加载时间
+        self.training_start_time = None      # 训练开始时间
         self.total_epochs = total_epochs
         self.current_subject = current_subject
         self.total_subjects = total_subjects
@@ -142,6 +144,10 @@ class TrainingTimer:
         self.timer_thread = threading.Thread(target=self._timer_loop)
         self.timer_thread.daemon = True
         self.timer_thread.start()
+    
+    def start_training(self):
+        """开始训练时调用"""
+        self.training_start_time = time.time()
     
     def update_epoch(self, epoch):
         self.current_epoch = epoch
@@ -155,11 +161,29 @@ class TrainingTimer:
     
     def _print_estimate(self):
         """打印时间估算"""
-        elapsed_time = time.time() - self.start_time
+        total_elapsed_time = time.time() - self.start_time
         
-        if self.current_epoch > 0:
-            # 计算每个epoch的平均时间
-            time_per_epoch = elapsed_time / self.current_epoch
+        # 格式化时间
+        def format_time(seconds):
+            hours = int(seconds // 3600)
+            minutes = int((seconds % 3600) // 60)
+            secs = int(seconds % 60)
+            return f"{hours:02d}:{minutes:02d}:{secs:02d}"
+        
+        print(f"\n=== 时间估算 (Subject {self.current_subject}/{self.total_subjects}) ===")
+        print(f"当前Epoch: {self.current_epoch}/{self.total_epochs}")
+        print(f"总已用时间: {format_time(total_elapsed_time)}")
+        
+        # 显示数据加载时间
+        print(f"数据加载时间: {format_time(self.data_loading_time)}")
+        
+        # 显示训练时间
+        if self.current_epoch > 0 and self.training_start_time is not None:
+            # 只计算训练时间，不包括数据加载时间
+            training_elapsed_time = time.time() - self.training_start_time
+            
+            # 计算每个epoch的平均训练时间
+            time_per_epoch = training_elapsed_time / self.current_epoch
             
             # 计算当前subject剩余epochs
             remaining_epochs_current = self.total_epochs - self.current_epoch
@@ -171,20 +195,15 @@ class TrainingTimer:
             remaining_subjects = self.total_subjects - self.current_subject
             total_remaining_time = remaining_time_current + (remaining_subjects * self.total_epochs * time_per_epoch)
             
-            # 格式化时间
-            def format_time(seconds):
-                hours = int(seconds // 3600)
-                minutes = int((seconds % 3600) // 60)
-                secs = int(seconds % 60)
-                return f"{hours:02d}:{minutes:02d}:{secs:02d}"
-            
-            print(f"\n=== 时间估算 (Subject {self.current_subject}/{self.total_subjects}) ===")
-            print(f"当前Epoch: {self.current_epoch}/{self.total_epochs}")
-            print(f"已用时间: {format_time(elapsed_time)}")
+            print(f"训练已用时间: {format_time(training_elapsed_time)}")
+            print(f"每Epoch平均时间: {time_per_epoch:.1f}秒")
             print(f"当前Subject剩余时间: {format_time(remaining_time_current)}")
-            print(f"总剩余时间: {format_time(total_remaining_time)}")
-            print(f"预计完成时间: {format_time(elapsed_time + total_remaining_time)}")
-            print("=" * 50)
+            # print(f"总剩余时间: {format_time(total_remaining_time)}")  # 注释掉总剩余时间
+            print(f"预计完成时间: {format_time(total_elapsed_time + total_remaining_time)}")
+        else:
+            print("训练时间: 未开始")
+        
+        print("=" * 50)
     
     def stop(self):
         self.running = False
@@ -254,6 +273,9 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
 
     for sub_idx, n_subName in enumerate(subName, 1):
         print(f'\nSubject: {n_subName} ({sub_idx}/{total_subjects})')
+
+        # 开始数据加载计时
+        data_loading_start = time.time()
 
         X_train = []
         y_train = []
@@ -396,6 +418,11 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
         dataset_test = TensorDataset(X_test, y_test)
         # test_dl = DataLoader(dataset_test, batch_size=batch_size, shuffle=False, num_workers=0)
         test_dl = DataLoader(dataset_test, batch_size=batch_size, shuffle=False, num_workers=0)
+        
+        # 结束数据加载计时
+        data_loading_end = time.time()
+        data_loading_time = data_loading_end - data_loading_start
+        print(f"数据加载完成，耗时: {data_loading_time:.2f}秒")
 
         weight_path = './Experiment_for_recognize/' + config.exp_name + '/' + n_subName + '/' + n_subName + '.pth'
 
@@ -432,11 +459,14 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
         iter_num = 0
         epochs = max_iter // len(train_dl) + 1
 
-        # 2. 创建训练时间估算器
-        timer = TrainingTimer(epochs, sub_idx, total_subjects)
+        # 创建训练时间估算器，传入数据加载时间
+        timer = TrainingTimer(epochs, sub_idx, total_subjects, data_loading_time)
         print(f"Starting training for {epochs} epochs...")
 
         for epoch in range(1, epochs + 1):
+            # 在第一个epoch开始时启动训练计时
+            if epoch == 1:
+                timer.start_training()
             # 更新当前epoch
             timer.update_epoch(epoch)
             
