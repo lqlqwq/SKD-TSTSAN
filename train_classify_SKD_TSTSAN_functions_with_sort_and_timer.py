@@ -394,6 +394,7 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
 
         y_test = torch.Tensor(y_test).to(dtype=torch.long)
         dataset_test = TensorDataset(X_test, y_test)
+        # test_dl = DataLoader(dataset_test, batch_size=batch_size, shuffle=False, num_workers=0)
         test_dl = DataLoader(dataset_test, batch_size=batch_size, shuffle=False, num_workers=0)
 
         weight_path = './Experiment_for_recognize/' + config.exp_name + '/' + n_subName + '/' + n_subName + '.pth'
