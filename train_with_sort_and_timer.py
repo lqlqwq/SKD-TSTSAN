@@ -12,8 +12,12 @@ if __name__ == '__main__':
     parser.add_argument('--pre_trained_model_path', type=str, default="Pretrained_model/SKD-TSTSAN.pth", help="path to the model weights pre-trained on macro-expression dataset")
     parser.add_argument('--main_path', type=str, default="Dataset/CASME2_retinaface_classify_LOSO", help="path to the dataset directory")
     parser.add_argument('--exp_name', type=str, default="With_Sort_And_Timer", help="name of the folder to save experimental results")
+
     parser.add_argument('--learning_rate', type=float, default=0.001)
     parser.add_argument('--batch_size', type=int, default=16)  # 可以修改batch_size
+    # parser.add_argument('--batch_size', type=int, default=64)  # 可以修改batch_size
+    # parser.add_argument('--learning_rate', type=float, default=0.004)
+
     parser.add_argument('--seed', type=int, default=1337)
     parser.add_argument('--max_iter', type=int, default=20000)
     parser.add_argument('--model', type=str, default="SKD_TSTSAN")

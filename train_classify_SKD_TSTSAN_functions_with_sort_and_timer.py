@@ -189,6 +189,8 @@ class TrainingTimer:
     def stop(self):
         self.running = False
 
+
+
 def main_SKD_TSTSAN_with_Aug_with_SKD(config):
     learning_rate = config.learning_rate
     batch_size = config.batch_size
@@ -207,7 +209,8 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
 
     is_cuda = torch.cuda.is_available()
     if is_cuda:
-        device = torch.device('cuda')
+        device = torch.device('cuda:0')  # 限制为GPU 0
+        torch.cuda.set_device(0)  # 设置默认GPU为0
     else:
         # device = torch.device('cpu')
         raise Exception("No GPU")
