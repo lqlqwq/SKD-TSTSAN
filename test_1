@@ -1,0 +1,32 @@
+import torch
+
+
+def assert_same_device(model, batch, target_device="cuda:0"):
+    bad = []
+
+    # 1) 模型参数/缓冲区
+    for name, p in model.named_parameters():
+        if p.is_cuda and str(p.device) != target_device:
+            bad.append(("param", name, str(p.device)))
+    for name, b in model.named_buffers():
+        if b.is_cuda and str(b.device) != target_device:
+            bad.append(("buffer", name, str(b.device)))
+
+    # 2) batch 张量
+    def walk(prefix, x):
+        if torch.is_tensor(x):
+            dev = "cpu" if not x.is_cuda else str(x.device)
+            if x.is_cuda and dev != target_device:
+                bad.append(("batch", prefix, dev))
+        elif isinstance(x, (list, tuple)):
+            for i, v in enumerate(x):
+                walk(f"{prefix}[{i}]", v)
+        elif isinstance(x, dict):
+            for k, v in x.items():
+                walk(f"{prefix}.{k}", v)
+
+    walk("batch", batch)
+
+    if bad:
+        msg = "\n".join([f"- {k}: {n} on {d}" for (k,n,d) in bad])
+        raise RuntimeError("发现跨设备/错误设备张量：\n" + msg)
