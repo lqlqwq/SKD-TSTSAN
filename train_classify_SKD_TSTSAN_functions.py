@@ -12,6 +12,7 @@ from collections import OrderedDict
 import shutil
 import sys
 from all_model import *
+from tqdm import tqdm
 
 
 def reset_weights(m):  # Reset the weights for network to avoid weight leakage
@@ -158,7 +159,7 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
 
     is_cuda = torch.cuda.is_available()
     if is_cuda:
-        device = torch.device('cuda')
+        device = torch.device('cuda:0')
     else:
         # device = torch.device('cpu')
         raise Exception("No GPU")
@@ -360,7 +361,7 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
 
         # train_dl = DataLoader(dataset_train, batch_size=batch_size, shuffle=True, num_workers=0, pin_memory=True,
         #                       worker_init_fn=worker_init_fn)
-        train_dl = DataLoader(dataset_train, batch_size=batch_size, shuffle=True, num_workers=0, pin_memory=True,
+        train_dl = DataLoader(dataset_train, batch_size=batch_size, shuffle=True, num_workers=0, pin_memory=False,
                               worker_init_fn=worker_init_fn)
 
         # X_test = torch.Tensor(X_test).permute(0, 3, 1, 2)
@@ -379,6 +380,7 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
         epochs = max_iter // len(train_dl) + 1
 
         for epoch in range(1, epochs + 1):
+            print(f"Epoch {epoch}/{epochs}")
             if (config.train):
                 model.train()
                 train_ce_loss = 0.0
@@ -396,11 +398,20 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
                 middle1_num_train_correct = 0
                 middle2_num_train_correct = 0
 
-                for batch in train_dl:
+                for batch in tqdm(train_dl):
                     optimizer.zero_grad()
+                    # measure time taken to load data from cpu memory to gpu memory
+                    start_time = time.time()
                     x = batch[0].to(device)
+                    end_time = time.time()
+                    print(f"Time taken to load data: {end_time - start_time} seconds")
                     y = batch[1].to(device)
+                    # measure time taken to inference model
+                    start_time = time.time()
                     yhat, AC1_out, AC2_out, final_feature, AC1_feature, AC2_feature = model(x)
+                    end_time = time.time()
+                    print(f"Time taken to inference model: {end_time - start_time} seconds")
+
                     loss = loss_fn(yhat, y)
                     AC1_loss = loss_fn(AC1_out, y)
                     AC2_loss = loss_fn(AC2_out, y)
