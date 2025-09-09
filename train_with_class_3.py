@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
     print("=== 训练脚本（带排序和时间估算）- 修复版 ===")
     print(f"批次大小: {config.batch_size}")
-    print("功能： ")
+    print("功能：")
     print("1. 自动排序subjects，确保从sub01开始")
     print("2. 每5秒自动打印训练时间估算")
     print("3. 修复了CASME2 3分类权重张量维度问题")
