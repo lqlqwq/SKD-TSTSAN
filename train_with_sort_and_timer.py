@@ -10,7 +10,7 @@ if __name__ == '__main__':
     parser.add_argument('--Aug_COCO_pre_trained', type=strtobool, default=True)
     parser.add_argument('--save_model', type=strtobool, default=True)
     parser.add_argument('--pre_trained_model_path', type=str, default="Pretrained_model/SKD-TSTSAN.pth", help="path to the model weights pre-trained on macro-expression dataset")
-    parser.add_argument('--main_path', type=str, default="Dataset/CASME2_retinaface_classify_LOSO", help="path to the dataset directory")
+    parser.add_argument('--main_path', type=str, default="Dataset/CASME2_retinaface_classify_LOSO_class_3", help="path to the dataset directory")
     parser.add_argument('--exp_name', type=str, default="With_Sort_And_Timer", help="name of the folder to save experimental results")
 
     parser.add_argument('--learning_rate', type=float, default=0.001)
@@ -22,7 +22,8 @@ if __name__ == '__main__':
     parser.add_argument('--max_iter', type=int, default=20000)
     parser.add_argument('--model', type=str, default="SKD_TSTSAN")
     parser.add_argument('--loss_function', type=str, default="FocalLoss_weighted")
-    parser.add_argument('--class_num', type=int, default=5) #3类还是5类
+    # parser.add_argument('--class_num', type=int, default=5) #3类还是5类
+    parser.add_argument('--class_num', type=int, default=3) #3类还是5类
 
     parser.add_argument('--temperature', default=3, type=int, help='temperature to smooth the logits')
     parser.add_argument('--alpha', default=0.1, type=float, help='weight of kd loss')

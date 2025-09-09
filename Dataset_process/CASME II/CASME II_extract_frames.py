@@ -2,9 +2,9 @@ import pandas as pd
 import shutil
 import os
 
-df = pd.read_excel("../Dataset/CASME2-coding-20140508.xlsx",dtype={"Subject": str})
-dir_path = "../Dataset/CASME2_retinaface/"
-out_dir_path = "../Dataset/CASME2_onset_apex_offset_retinaface/"
+df = pd.read_excel("../../Dataset/CASME2-coding-20140508.xlsx",dtype={"Subject": str})
+dir_path = "../../Dataset/CASME2_retinaface/"
+out_dir_path = "../../Dataset/CASME2_onset_apex_offset_retinaface/"
 
 lst = []
 

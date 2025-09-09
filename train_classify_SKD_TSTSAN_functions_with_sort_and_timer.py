@@ -235,8 +235,21 @@ def main_SKD_TSTSAN_with_Aug_with_SKD(config):
         raise Exception("No GPU")
 
     if config.loss_function == "FocalLoss_weighted":
-        if config.main_path.split("/")[1].split("_")[0] == "CASME2":
+        # 检查是否是CASME2的3分类版本
+        if config.main_path.split("/")[1].split("_")[0] == "CASME2" and "class_3" in config.main_path:
+            # CASME2 3分类版本
+            numbers = [1, 1, 1]  # 3分类的权重
+        elif config.main_path.split("/")[1].split("_")[0] == "CASME2":
+            # CASME2 5分类版本
             numbers = CASME2_numbers
+        else:
+            # 对于其他数据集，根据class_num动态设置权重
+            if config.class_num == 3:
+                numbers = [1, 1, 1]  # 3分类的默认权重
+            elif config.class_num == 5:
+                numbers = [1, 1, 1, 1, 1]  # 5分类的默认权重
+            else:
+                numbers = [1] * config.class_num  # 通用情况
 
         sum_reciprocal = sum(1 / num for num in numbers)
         weights = [(1 / num) / sum_reciprocal for num in numbers]

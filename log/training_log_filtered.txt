@@ -1,0 +1,4731 @@
+=== 训练脚本（带排序和时间估算）- 修复版 ===
+批次大小: 16
+功能：
+1. 自动排序subjects，确保从sub01开始
+2. 每5秒自动打印训练时间估算
+3. 修复了CASME2 3分类权重张量维度问题
+==================================
+Subjects will be trained in order: ['CASME_01', 'CASME_02', 'CASME_03', 'CASME_04', 'CASME_05', 'CASME_06', 'CASME_07', 'CASME_08', 'CASME_09', 'CASME_11', 'CASME_12', 'CASME_13', 'CASME_14', 'CASME_15', 'CASME_16', 'CASME_17', 'CASME_19', 'CASME_20', 'CASME_21', 'CASME_22', 'CASME_23', 'CASME_24', 'CASME_25', 'CASME_26', 'SAMM_06', 'SAMM_07', 'SAMM_09', 'SAMM_10', 'SAMM_11', 'SAMM_12', 'SAMM_13', 'SAMM_14', 'SAMM_15', 'SAMM_16', 'SAMM_17', 'SAMM_18', 'SAMM_19', 'SAMM_20', 'SAMM_21', 'SAMM_22', 'SAMM_23', 'SAMM_24', 'SAMM_25', 'SAMM_26', 'SAMM_28', 'SAMM_30', 'SAMM_31', 'SAMM_32', 'SAMM_33', 'SAMM_34', 'SAMM_35', 'SAMM_36', 'SAMM_37', 'SMIC_01', 'SMIC_02', 'SMIC_03', 'SMIC_04', 'SMIC_05', 'SMIC_06', 'SMIC_08', 'SMIC_09', 'SMIC_11', 'SMIC_12', 'SMIC_13', 'SMIC_14', 'SMIC_15', 'SMIC_18', 'SMIC_19', 'SMIC_20']
+
+Subject: CASME_01 (1/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 1/69) ===
+当前Epoch: 919/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:05
+预计完成时间: 13:49:48
+==================================================
+
+=== 时间估算 (Subject 1/69) ===
+当前Epoch: 1845/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:02
+预计完成时间: 13:41:30
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: CASME_02 (2/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 2/69) ===
+当前Epoch: 921/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:04
+预计完成时间: 13:35:55
+==================================================
+
+=== 时间估算 (Subject 2/69) ===
+当前Epoch: 1844/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:03
+预计完成时间: 13:30:01
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: CASME_03 (3/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 3/69) ===
+当前Epoch: 913/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:10
+预计完成时间: 13:30:56
+==================================================
+
+=== 时间估算 (Subject 3/69) ===
+当前Epoch: 1820/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:12
+预计完成时间: 13:28:34
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: CASME_04 (4/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 4/69) ===
+当前Epoch: 898/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:22
+预计完成时间: 13:32:11
+==================================================
+
+=== 时间估算 (Subject 4/69) ===
+当前Epoch: 1795/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:23
+预计完成时间: 13:27:38
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: CASME_05 (5/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 5/69) ===
+当前Epoch: 897/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:23
+预计完成时间: 13:20:42
+==================================================
+
+=== 时间估算 (Subject 5/69) ===
+当前Epoch: 1791/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:24
+预计完成时间: 13:17:02
+==================================================
+Dataset: multi
+UF1: 0.8774
+UAR: 0.9389
+Accuracy: 0.8571
+
+Subject: CASME_06 (6/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 6/69) ===
+当前Epoch: 888/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:31
+预计完成时间: 13:16:20
+==================================================
+
+=== 时间估算 (Subject 6/69) ===
+当前Epoch: 1779/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:29
+预计完成时间: 13:09:59
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: CASME_07 (7/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 7/69) ===
+当前Epoch: 893/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:26
+预计完成时间: 12:59:15
+==================================================
+
+=== 时间估算 (Subject 7/69) ===
+当前Epoch: 1783/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:28
+预计完成时间: 12:55:38
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: CASME_08 (8/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 8/69) ===
+当前Epoch: 883/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:35
+预计完成时间: 12:55:41
+==================================================
+
+=== 时间估算 (Subject 8/69) ===
+当前Epoch: 1766/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:35
+预计完成时间: 12:50:41
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: CASME_09 (9/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 9/69) ===
+当前Epoch: 888/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:31
+预计完成时间: 12:38:46
+==================================================
+
+=== 时间估算 (Subject 9/69) ===
+当前Epoch: 1778/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:30
+预计完成时间: 12:32:54
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: CASME_11 (10/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 10/69) ===
+当前Epoch: 884/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:34
+预计完成时间: 12:29:24
+==================================================
+
+=== 时间估算 (Subject 10/69) ===
+当前Epoch: 1766/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:35
+预计完成时间: 12:25:23
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: CASME_12 (11/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 11/69) ===
+当前Epoch: 883/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:35
+预计完成时间: 12:17:55
+==================================================
+
+=== 时间估算 (Subject 11/69) ===
+当前Epoch: 1765/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:35
+预计完成时间: 12:13:19
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: CASME_13 (12/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 12/69) ===
+当前Epoch: 875/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:42
+预计完成时间: 12:12:00
+==================================================
+
+=== 时间估算 (Subject 12/69) ===
+当前Epoch: 1754/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:40
+预计完成时间: 12:05:18
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: CASME_14 (13/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 13/69) ===
+当前Epoch: 881/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:37
+预计完成时间: 11:54:22
+==================================================
+
+=== 时间估算 (Subject 13/69) ===
+当前Epoch: 1763/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:36
+预计完成时间: 11:48:57
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: CASME_15 (14/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 14/69) ===
+当前Epoch: 883/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:35
+预计完成时间: 11:40:08
+==================================================
+
+=== 时间估算 (Subject 14/69) ===
+当前Epoch: 1767/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:34
+预计完成时间: 11:34:44
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: CASME_16 (15/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 15/69) ===
+当前Epoch: 881/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:37
+预计完成时间: 11:29:07
+==================================================
+
+=== 时间估算 (Subject 15/69) ===
+当前Epoch: 1755/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:40
+预计完成时间: 11:26:53
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: CASME_17 (16/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 16/69) ===
+当前Epoch: 955/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:08:05
+预计完成时间: 11:42:19
+==================================================
+
+=== 时间估算 (Subject 16/69) ===
+当前Epoch: 1914/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:03:04
+预计完成时间: 11:35:50
+==================================================
+Dataset: multi
+UF1: 0.9718
+UAR: 0.9858
+Accuracy: 0.9677
+
+Subject: CASME_19 (17/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 17/69) ===
+当前Epoch: 882/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:36
+预计完成时间: 11:03:07
+==================================================
+
+=== 时间估算 (Subject 17/69) ===
+当前Epoch: 1764/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:36
+预计完成时间: 10:58:07
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: CASME_20 (18/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 18/69) ===
+当前Epoch: 878/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:39
+预计完成时间: 10:53:30
+==================================================
+
+=== 时间估算 (Subject 18/69) ===
+当前Epoch: 1751/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:41
+预计完成时间: 10:50:23
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: CASME_21 (19/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 19/69) ===
+当前Epoch: 874/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:43
+预计完成时间: 10:43:48
+==================================================
+
+=== 时间估算 (Subject 19/69) ===
+当前Epoch: 1749/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:42
+预计完成时间: 10:38:25
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: CASME_22 (20/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 20/69) ===
+当前Epoch: 930/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:57
+预计完成时间: 09:52:46
+==================================================
+
+=== 时间估算 (Subject 20/69) ===
+当前Epoch: 1852/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:00
+预计完成时间: 09:50:21
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: CASME_23 (21/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 21/69) ===
+当前Epoch: 929/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:58
+预计完成时间: 09:41:27
+==================================================
+
+=== 时间估算 (Subject 21/69) ===
+当前Epoch: 1854/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:59
+预计完成时间: 09:37:42
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: CASME_24 (22/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 22/69) ===
+当前Epoch: 921/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:04
+预计完成时间: 09:34:28
+==================================================
+
+=== 时间估算 (Subject 22/69) ===
+当前Epoch: 1843/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:03
+预计完成时间: 09:29:05
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: CASME_25 (23/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 23/69) ===
+当前Epoch: 931/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:56
+预计完成时间: 09:16:18
+==================================================
+
+=== 时间估算 (Subject 23/69) ===
+当前Epoch: 1858/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:57
+预计完成时间: 09:12:27
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: CASME_26 (24/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 24/69) ===
+当前Epoch: 935/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:53
+预计完成时间: 09:02:00
+==================================================
+
+=== 时间估算 (Subject 24/69) ===
+当前Epoch: 1868/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:54
+预计完成时间: 08:57:35
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SAMM_06 (25/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 25/69) ===
+当前Epoch: 1041/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:00
+预计完成时间: 08:55:35
+==================================================
+
+=== 时间估算 (Subject 25/69) ===
+当前Epoch: 2087/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:59
+预计完成时间: 08:49:16
+==================================================
+Dataset: multi
+UF1: 0.8713
+UAR: 0.8333
+Accuracy: 0.9091
+
+Subject: SAMM_07 (26/69)
+数据加载完成，耗时: 0.09秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 26/69) ===
+当前Epoch: 1033/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:06
+预计完成时间: 08:47:49
+==================================================
+
+=== 时间估算 (Subject 26/69) ===
+当前Epoch: 2074/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:03
+预计完成时间: 08:40:45
+==================================================
+Dataset: multi
+UF1: 0.6427
+UAR: 0.6389
+Accuracy: 0.7500
+
+Subject: SAMM_09 (27/69)
+数据加载完成，耗时: 0.09秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 27/69) ===
+当前Epoch: 1027/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:10
+预计完成时间: 08:38:45
+==================================================
+
+=== 时间估算 (Subject 27/69) ===
+当前Epoch: 2059/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:08
+预计完成时间: 08:32:24
+==================================================
+Dataset: multi
+UF1: 0.6190
+UAR: 0.6667
+Accuracy: 0.7500
+
+Subject: SAMM_10 (28/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 28/69) ===
+当前Epoch: 1028/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:10
+预计完成时间: 08:26:04
+==================================================
+
+=== 时间估算 (Subject 28/69) ===
+当前Epoch: 2058/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:09
+预计完成时间: 08:20:34
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_11 (29/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2858 epochs...
+
+=== 时间估算 (Subject 29/69) ===
+当前Epoch: 1123/2858
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:43
+预计完成时间: 08:36:53
+==================================================
+
+=== 时间估算 (Subject 29/69) ===
+当前Epoch: 2251/2858
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:41
+预计完成时间: 08:30:43
+==================================================
+Dataset: multi
+UF1: 0.8860
+UAR: 0.8791
+Accuracy: 0.8500
+
+Subject: SAMM_12 (30/69)
+数据加载完成，耗时: 0.09秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 30/69) ===
+当前Epoch: 1029/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:09
+预计完成时间: 08:01:12
+==================================================
+
+=== 时间估算 (Subject 30/69) ===
+当前Epoch: 2053/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:10
+预计完成时间: 07:57:20
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SAMM_13 (31/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 31/69) ===
+当前Epoch: 1029/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:09
+预计完成时间: 07:49:06
+==================================================
+
+=== 时间估算 (Subject 31/69) ===
+当前Epoch: 2057/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:09
+预计完成时间: 07:44:20
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_14 (32/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 32/69) ===
+当前Epoch: 1035/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:05
+预计完成时间: 07:34:12
+==================================================
+
+=== 时间估算 (Subject 32/69) ===
+当前Epoch: 2069/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:05
+预计完成时间: 07:29:27
+==================================================
+Dataset: multi
+UF1: 0.7801
+UAR: 0.7778
+Accuracy: 0.9000
+
+Subject: SAMM_15 (33/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 33/69) ===
+当前Epoch: 1024/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:12
+预计完成时间: 07:26:50
+==================================================
+
+=== 时间估算 (Subject 33/69) ===
+当前Epoch: 2054/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:10
+预计完成时间: 07:20:35
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SAMM_16 (34/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 34/69) ===
+当前Epoch: 1037/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:03
+预计完成时间: 07:09:15
+==================================================
+
+=== 时间估算 (Subject 34/69) ===
+当前Epoch: 2070/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:04
+预计完成时间: 07:05:05
+==================================================
+Dataset: multi
+UF1: 0.8413
+UAR: 0.8750
+Accuracy: 0.8000
+
+Subject: SAMM_17 (35/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 35/69) ===
+当前Epoch: 1030/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:08
+预计完成时间: 07:00:03
+==================================================
+
+=== 时间估算 (Subject 35/69) ===
+当前Epoch: 2064/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:07
+预计完成时间: 06:54:14
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SAMM_18 (36/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 36/69) ===
+当前Epoch: 1033/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:06
+预计完成时间: 06:46:36
+==================================================
+
+=== 时间估算 (Subject 36/69) ===
+当前Epoch: 2062/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:07
+预计完成时间: 06:42:27
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SAMM_19 (37/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 37/69) ===
+当前Epoch: 928/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:58
+预计完成时间: 06:30:23
+==================================================
+
+=== 时间估算 (Subject 37/69) ===
+当前Epoch: 1859/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:57
+预计完成时间: 06:24:44
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_20 (38/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 38/69) ===
+当前Epoch: 1033/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:06
+预计完成时间: 06:22:30
+==================================================
+
+=== 时间估算 (Subject 38/69) ===
+当前Epoch: 2071/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:04
+预计完成时间: 06:16:33
+==================================================
+Dataset: multi
+UF1: 0.7206
+UAR: 0.7083
+Accuracy: 0.7500
+
+Subject: SAMM_21 (39/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 39/69) ===
+当前Epoch: 927/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:59
+预计完成时间: 06:06:49
+==================================================
+
+=== 时间估算 (Subject 39/69) ===
+当前Epoch: 1864/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:55
+预计完成时间: 05:59:49
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_22 (40/69)
+数据加载完成，耗时: 0.09秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 40/69) ===
+当前Epoch: 1034/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:05
+预计完成时间: 05:57:50
+==================================================
+
+=== 时间估算 (Subject 40/69) ===
+当前Epoch: 2071/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:04
+预计完成时间: 05:52:21
+==================================================
+Dataset: multi
+UF1: 0.8667
+UAR: 0.8889
+Accuracy: 0.8000
+
+Subject: SAMM_23 (41/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 41/69) ===
+当前Epoch: 938/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:51
+预计完成时间: 05:38:45
+==================================================
+
+=== 时间估算 (Subject 41/69) ===
+当前Epoch: 1867/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:54
+预计完成时间: 05:35:24
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_24 (42/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 42/69) ===
+当前Epoch: 938/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:51
+预计完成时间: 05:26:53
+==================================================
+
+=== 时间估算 (Subject 42/69) ===
+当前Epoch: 1875/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:51
+预计完成时间: 05:22:04
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_25 (43/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+
+=== 时间估算 (Subject 43/69) ===
+当前Epoch: 959/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:35
+预计完成时间: 05:08:02
+==================================================
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+
+=== 时间估算 (Subject 43/69) ===
+当前Epoch: 1915/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:36
+预计完成时间: 05:03:31
+==================================================
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+警告: 测试集为空，跳过此subject
+/home/lqlqwq/miniconda3/envs/SKD/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/lqlqwq/miniconda3/envs/SKD/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/lqlqwq/Code/ME/train_classify_SKD_TSTSAN_functions_with_class_3.py:91: RuntimeWarning: invalid value encountered in scalar divide
+  accuracy = np.sum(np.array(final_gt) == np.array(final_pred)) / len(final_gt)
+Dataset: multi
+UF1: nan
+UAR: nan
+Accuracy: nan
+
+Subject: SAMM_26 (44/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 44/69) ===
+当前Epoch: 1034/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:05
+预计完成时间: 05:09:27
+==================================================
+
+=== 时间估算 (Subject 44/69) ===
+当前Epoch: 2069/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:05
+预计完成时间: 05:04:21
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_28 (45/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 45/69) ===
+当前Epoch: 932/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:55
+预计完成时间: 04:53:11
+==================================================
+
+=== 时间估算 (Subject 45/69) ===
+当前Epoch: 1866/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:54
+预计完成时间: 04:47:53
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_30 (46/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 46/69) ===
+当前Epoch: 1027/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:10
+预计完成时间: 04:47:19
+==================================================
+
+=== 时间估算 (Subject 46/69) ===
+当前Epoch: 2045/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:13
+预计完成时间: 04:43:36
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_31 (47/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 47/69) ===
+当前Epoch: 933/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:54
+预计完成时间: 04:29:05
+==================================================
+
+=== 时间估算 (Subject 47/69) ===
+当前Epoch: 1867/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:54
+预计完成时间: 04:23:56
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_32 (48/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 48/69) ===
+当前Epoch: 1022/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:14
+预计完成时间: 04:24:11
+==================================================
+
+=== 时间估算 (Subject 48/69) ===
+当前Epoch: 2043/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:14
+预计完成时间: 04:19:21
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_33 (49/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 49/69) ===
+当前Epoch: 1027/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:10
+预计完成时间: 04:10:47
+==================================================
+
+=== 时间估算 (Subject 49/69) ===
+当前Epoch: 2057/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:09
+预计完成时间: 04:05:24
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SAMM_34 (50/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 50/69) ===
+当前Epoch: 1024/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:12
+预计完成时间: 03:59:19
+==================================================
+
+=== 时间估算 (Subject 50/69) ===
+当前Epoch: 2043/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:14
+预计完成时间: 03:54:54
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_35 (51/69)
+数据加载完成，耗时: 0.09秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 51/69) ===
+当前Epoch: 1031/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:07
+预计完成时间: 03:45:31
+==================================================
+
+=== 时间估算 (Subject 51/69) ===
+当前Epoch: 2053/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:10
+预计完成时间: 03:41:31
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SAMM_36 (52/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 52/69) ===
+当前Epoch: 930/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:57
+预计完成时间: 03:30:11
+==================================================
+
+=== 时间估算 (Subject 52/69) ===
+当前Epoch: 1855/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:59
+预计完成时间: 03:25:45
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SAMM_37 (53/69)
+数据加载完成，耗时: 0.10秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 53/69) ===
+当前Epoch: 930/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:06:57
+预计完成时间: 03:18:14
+==================================================
+
+=== 时间估算 (Subject 53/69) ===
+当前Epoch: 1866/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:01:54
+预计完成时间: 03:12:35
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SMIC_01 (54/69)
+数据加载完成，耗时: 0.13秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2001 epochs...
+
+=== 时间估算 (Subject 54/69) ===
+当前Epoch: 836/2001
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:06:58
+预计完成时间: 03:06:32
+==================================================
+
+=== 时间估算 (Subject 54/69) ===
+当前Epoch: 1676/2001
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:01:56
+预计完成时间: 03:01:03
+==================================================
+Dataset: multi
+UF1: 0.7481
+UAR: 0.7778
+Accuracy: 0.8000
+
+Subject: SMIC_02 (55/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2001 epochs...
+
+=== 时间估算 (Subject 55/69) ===
+当前Epoch: 838/2001
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:06:56
+预计完成时间: 02:54:08
+==================================================
+
+=== 时间估算 (Subject 55/69) ===
+当前Epoch: 1666/2001
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:02:00
+预计完成时间: 02:50:13
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SMIC_03 (56/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2501 epochs...
+
+=== 时间估算 (Subject 56/69) ===
+当前Epoch: 964/2501
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:58
+预计完成时间: 02:56:39
+==================================================
+
+=== 时间估算 (Subject 56/69) ===
+当前Epoch: 1922/2501
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:03:00
+预计完成时间: 02:52:13
+==================================================
+Dataset: multi
+UF1: 0.7547
+UAR: 0.7586
+Accuracy: 0.7273
+
+Subject: SMIC_04 (57/69)
+数据加载完成，耗时: 0.11秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 57/69) ===
+当前Epoch: 893/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:26
+预计完成时间: 02:36:50
+==================================================
+
+=== 时间估算 (Subject 57/69) ===
+当前Epoch: 1783/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:28
+预计完成时间: 02:32:07
+==================================================
+Dataset: multi
+UF1: 0.8062
+UAR: 0.7941
+Accuracy: 0.7647
+
+Subject: SMIC_05 (58/69)
+数据加载完成，耗时: 0.13秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2001 epochs...
+
+=== 时间估算 (Subject 58/69) ===
+当前Epoch: 835/2001
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:06:59
+预计完成时间: 02:18:49
+==================================================
+
+=== 时间估算 (Subject 58/69) ===
+当前Epoch: 1671/2001
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:01:58
+预计完成时间: 02:13:44
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SMIC_06 (59/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2001 epochs...
+
+=== 时间估算 (Subject 59/69) ===
+当前Epoch: 835/2001
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:06:59
+预计完成时间: 02:06:50
+==================================================
+
+=== 时间估算 (Subject 59/69) ===
+当前Epoch: 1675/2001
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:01:56
+预计完成时间: 02:01:26
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SMIC_08 (60/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 60/69) ===
+当前Epoch: 914/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:09
+预计完成时间: 01:56:38
+==================================================
+
+=== 时间估算 (Subject 60/69) ===
+当前Epoch: 1827/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:10
+预计完成时间: 01:51:42
+==================================================
+Dataset: multi
+UF1: 0.8917
+UAR: 0.9259
+Accuracy: 0.8462
+
+Subject: SMIC_09 (61/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2001 epochs...
+
+=== 时间估算 (Subject 61/69) ===
+当前Epoch: 837/2001
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:06:57
+预计完成时间: 01:42:35
+==================================================
+
+=== 时间估算 (Subject 61/69) ===
+当前Epoch: 1670/2001
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:01:58
+预计完成时间: 01:37:51
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SMIC_11 (62/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2001 epochs...
+
+=== 时间估算 (Subject 62/69) ===
+当前Epoch: 836/2001
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:06:58
+预计完成时间: 01:30:46
+==================================================
+
+=== 时间估算 (Subject 62/69) ===
+当前Epoch: 1667/2001
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:02:00
+预计完成时间: 01:26:03
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SMIC_12 (63/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 63/69) ===
+当前Epoch: 914/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:09
+预计完成时间: 01:20:09
+==================================================
+
+=== 时间估算 (Subject 63/69) ===
+当前Epoch: 1821/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:12
+预计完成时间: 01:15:28
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SMIC_13 (64/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 64/69) ===
+当前Epoch: 913/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:10
+预计完成时间: 01:08:04
+==================================================
+
+=== 时间估算 (Subject 64/69) ===
+当前Epoch: 1813/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:15
+预计完成时间: 01:03:35
+==================================================
+Dataset: multi
+UF1: 0.8333
+UAR: 0.8333
+Accuracy: 1.0000
+
+Subject: SMIC_14 (65/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 65/69) ===
+当前Epoch: 913/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:07:10
+预计完成时间: 00:55:53
+==================================================
+
+=== 时间估算 (Subject 65/69) ===
+当前Epoch: 1823/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.3秒
+当前Subject剩余时间: 00:02:11
+预计完成时间: 00:50:59
+==================================================
+Dataset: multi
+UF1: 0.9219
+UAR: 0.9111
+Accuracy: 0.9000
+
+Subject: SMIC_15 (66/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2001 epochs...
+
+=== 时间估算 (Subject 66/69) ===
+当前Epoch: 830/2001
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:07:03
+预计完成时间: 00:43:13
+==================================================
+
+=== 时间估算 (Subject 66/69) ===
+当前Epoch: 1664/2001
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:02:01
+预计完成时间: 00:38:06
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SMIC_18 (67/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2001 epochs...
+
+=== 时间估算 (Subject 67/69) ===
+当前Epoch: 835/2001
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:06:58
+预计完成时间: 00:30:57
+==================================================
+
+=== 时间估算 (Subject 67/69) ===
+当前Epoch: 1663/2001
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:02:01
+预计完成时间: 00:26:06
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SMIC_19 (68/69)
+数据加载完成，耗时: 0.12秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2001 epochs...
+
+=== 时间估算 (Subject 68/69) ===
+当前Epoch: 827/2001
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:07:05
+预计完成时间: 00:19:12
+==================================================
+
+=== 时间估算 (Subject 68/69) ===
+当前Epoch: 1663/2001
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:02:01
+预计完成时间: 00:14:04
+==================================================
+Dataset: multi
+UF1: 1.0000
+UAR: 1.0000
+Accuracy: 1.0000
+
+Subject: SMIC_20 (69/69)
+数据加载完成，耗时: 0.13秒
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+=> Using fold div: 8
+Starting training for 2223 epochs...
+
+=== 时间估算 (Subject 69/69) ===
+当前Epoch: 836/2223
+总已用时间: 00:05:00
+数据加载时间: 00:00:00
+训练已用时间: 00:05:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:08:17
+预计完成时间: 00:08:17
+==================================================
+
+=== 时间估算 (Subject 69/69) ===
+当前Epoch: 1675/2223
+总已用时间: 00:10:00
+数据加载时间: 00:00:00
+训练已用时间: 00:10:00
+每Epoch平均时间: 0.4秒
+当前Subject剩余时间: 00:03:16
+预计完成时间: 00:03:16
+==================================================
+Dataset: multi
+UF1: 0.8011
+UAR: 0.7611
+Accuracy: 0.8182
+Dataset: multi
+UF1: 0.9317
+UAR: 0.9282
+Accuracy: 0.9206
+Overall Results:
+UF1: 0.9317
+UAR: 0.9282
+Accuracy: 0.9206
+Average Accuracy: 0.9448
+Total training time: 50632.32 seconds
